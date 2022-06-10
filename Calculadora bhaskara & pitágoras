@@ -1,6 +1,7 @@
 print('Para bhaskara, digite 1')
 print('Para pitágoras, digite 2')
 valor = int(input('Digite a opção desejada: '))
+
 if valor == 1:
   print('Escolha os valores:')
   a = int(input('Escolha um valor para A: '))
