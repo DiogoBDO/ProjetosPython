@@ -3,6 +3,7 @@ print("[1] - Determinante 2x2")
 print("[2] - Determinante 3x3")
 x = int(input("Digite um número: "))
 if x==1:
+
     #Estrutura 2x2
     print("Estrutura 2x2")
     print("| A B |")
