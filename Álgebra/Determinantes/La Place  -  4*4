@@ -124,7 +124,7 @@ c2Pr2 = c2P4 + c2P5 + c2P6
 resCP = cP * (c2Pr1 - c2Pr2)
 
 #RESULTADO
-resultado = resCA + resCB + resCC + resCD
+resultado = A.resCA + B.resCB + C.resCC + D.resCD
 print(resultado)
 
 
