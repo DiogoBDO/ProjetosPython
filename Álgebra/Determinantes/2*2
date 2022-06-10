@@ -1,0 +1,19 @@
+#Estrutura 2x2
+print("Estrutura 2x2")
+print("| A B |")
+print("| C D |")
+
+#Variaveis
+A = int(input("A: "))
+B = int(input("B: "))
+C = int(input("C: "))
+D = int(input("D: "))
+
+#Calculo
+c1 = A*D
+c2 = B*C
+resultado: int = c1-c2
+    
+#Resultado
+print("O resultado é: ")
+print(resultado)
