@@ -1,0 +1,58 @@
+print("Selecione alguma opção abaixo:")
+print("[1] - Determinante 2x2")
+print("[2] - Determinante 3x3")
+x = int(input("Digite um número: "))
+if x==1:
+    #Estrutura 2x2
+    print("Estrutura 2x2")
+    print("| A B |")
+    print("| C D |")
+
+    #Variaveis
+    A = int(input("A: "))
+    B = int(input("B: "))
+    C = int(input("C: "))
+    D = int(input("D: "))
+
+    #Calculo
+    c1 = A*D
+    c2 = B*C
+    resultado: int = c1-c2
+    
+    #Resultado
+    print("O resultado é: ")
+    print(resultado)
+
+elif x==2:
+    #Estrutura 3x3
+    print("Estrutura 3x3")
+    print("| A B C |")
+    print("| D E F |")
+    print("| G H I |")
+
+    #Variaveis
+    A = int(input("A: "))
+    B = int(input("B: "))
+    C = int(input("C: "))
+    D = int(input("D: "))
+    E = int(input("E: "))
+    F = int(input("F: "))
+    G = int(input("G: "))
+    H = int(input("H: "))
+    I = int(input("I: "))
+
+    #Calculo
+    d1 = A*E*I
+    d2 = B*F*G
+    d3 = C*D*H
+    p1 = d1+d2+d3
+
+    d4 = C*E*G
+    d5 = A*F*H
+    d6 = B*D*I
+    p2 = d4+d5+d6
+    
+    #Resultado
+    resultado: int = p1-p2
+    print("O resultado é: ")
+    print(resultado)
